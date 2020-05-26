@@ -29,7 +29,7 @@ github_username:  Wakaru-Science
 
 # Build settings
 markdown: kramdown
-theme: Slate
+theme: Minima
 plugins:
   - jekyll-feed
 
