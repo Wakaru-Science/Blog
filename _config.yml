@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   She is super hot and sexy
   AND she is cute and inncoent
   I love Mau
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Blog/" # the subpath of your site, e.g. /blog
 #https://wakaru-science.github.io/Blog/
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #https://wakaru-science.github.io
