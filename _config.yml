@@ -22,14 +22,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   She is super hot and sexy
   AND she is cute and inncoent
   I love Mau
-baseurl: "https://wakaru-science.github.io/Blog/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
+#https://wakaru-science.github.io/Blog/
 url: "https://wakaru-science.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Fuck Twitter
 github_username:  Wakaru-Science
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
