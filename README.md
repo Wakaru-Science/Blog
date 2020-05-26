@@ -1,0 +1,2 @@
+# Blog
+Wakaru Science Blog
