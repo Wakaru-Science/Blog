@@ -33,7 +33,7 @@ All have $\frac{1}{6}$ chances. See if you can read them.
 
 What about we wait for $2$ seconds? $10$ seconds? An hour? At this point, things get dicey. Ideally, we would want to treat the whole process as a single process and solve it in one go, which we do for relativity. But for non-relative purposes, we have to chop our process in $1$-second intervals, and then multiply them to stitch them together. So,
 
-	$$U(2,0) = U(2,1)U(1,0)$$
+$$U(2,0) = U(2,1)U(1,0)$$
 
 Again, read from left to right.
 
