@@ -16,8 +16,10 @@ $\lvert$
 
 $$\begin{psmallmatrix} 1 \\ 0 \end{psmallmatrix}$$
 
+\( \psi \)
 \( $\psi$ \)
-\$ \psi $)
+\$ \psi \$
+\$$ \psi \$$
 \[ ... \]
 
 \\( 1/x^{2} \\)
