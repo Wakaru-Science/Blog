@@ -32,3 +32,7 @@ $$
   \nabla\cdot\vec{\mathbf{B}} &= 0
 \end{align}
 $$
+
+$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
+
+k_{n+1} = n^2 + k_n^2 - k_{n-1}
