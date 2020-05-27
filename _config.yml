@@ -36,7 +36,7 @@ disqus:
 # Build settings
 markdown: kramdown
 kramdown:
-    math_engine: mathjax
+    math_engine: nil
 
 theme: minima
 plugins:
