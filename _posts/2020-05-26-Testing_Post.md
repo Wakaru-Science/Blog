@@ -12,6 +12,15 @@ This is my first post
 a given wire happens to be carrying "$$\lvert 0\rangle$$."
 By that we mean that it's carrying the linear combination
 
+katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
+    throwOnError: false
+});
+
+var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
+    throwOnError: false
+});
+// '<span class="katex">...</span>'
+
 \\( a^2 + b^2 = c^2 \\)
 \( a^2 + b^2 = c^2 \)
 
