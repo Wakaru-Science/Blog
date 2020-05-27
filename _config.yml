@@ -22,7 +22,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://wakaruscience.com" # the base hostname & protocol for your site, e.g. http://example.com
 #https://wakaru-science.github.io
 twitter_username: Wakaru-Science
-facebook_username: Fuck Twitter
+facebook_username: Wakaru_Science
 instagram_username: Wakaru-Science
 github_username:  Wakaru-Science
 
