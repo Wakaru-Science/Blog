@@ -17,7 +17,7 @@ $\lvert$
 $$\begin{psmallmatrix} 1 \\ 0 \end{psmallmatrix}$$
 
 \( $\psi$ \)
-
+\$ \psi $)
 \[ ... \]
 
 \\( 1/x^{2} \\)
