@@ -3,6 +3,8 @@ layout: post
 date: 2020-05-09
 comments: true
 title: The Hamiltionian Operator
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ---
 
 One of the three guards that scare away new learners of quantum mechanics is the Hamiltonian operator. Hamiltonian is the single most crucial operator in quantum mechanics; the king of operators, because of the simple fact that it operates upon the king itself, energy. We meet the king in postulate 5 of quantum mechanics without any explanation of the nature of the Hamiltonian or time-dependent Schrodinger wave equation. Without a proper understanding Hamiltonian or the wave equation, the intuition of quantum mechanics goes downhill real fast. All you are left with is pulling your hair out with a bunch of equations.
