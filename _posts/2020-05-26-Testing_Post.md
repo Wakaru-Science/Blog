@@ -12,14 +12,7 @@ This is my first post
 a given wire happens to be carrying "$$\lvert 0\rangle$$."
 By that we mean that it's carrying the linear combination
 
-katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
-    throwOnError: false
-});
-
-var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
-    throwOnError: false
-});
-// '<span class="katex">...</span>'
+$$c = \pm\sqrt{a^2 + b^2}$$
 
 \\( a^2 + b^2 = c^2 \\)
 \( a^2 + b^2 = c^2 \)
@@ -42,15 +35,6 @@ $$\begin{psmallmatrix} 1 \\ 0 \end{psmallmatrix}$$
 
 \\[ \frac{1}{n^{2}} \\]
 
-
-\$$
-\begin{align}
-  \nabla\times\vec{\mathbf{B}}-\frac{1}{c}\frac{\partial\vec{\mathbf{E}}}{\partial t} &= \frac{4\pi}{c}\vec{\mathbf{j}} \\
-  \nabla\cdot\vec{\mathbf{E}} &= 4\pi\rho \\
-  \nabla\times\vec{\mathbf{E}}+\frac{1}{c}\frac{\partial\vec{\mathbf{B}}}{\partial t} &= \vec{\mathbf{0}} \\
-  \nabla\cdot\vec{\mathbf{B}} &= 0
-\end{align}
-\$$
 
 $$
 \begin{align}
