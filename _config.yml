@@ -21,9 +21,9 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 #https://wakaru-science.github.io/Blog/
 url: "http://wakaruscience.com" # the base hostname & protocol for your site, e.g. http://example.com
 #https://wakaru-science.github.io
-twitter_username: Wakaru-Science
-facebook_username: Wakaru_Science
-instagram_username: Wakaru-Science
+twitter_username: Wakaru_Science
+facebook_username: WakaruScience
+instagram_username: wakaru_science
 github_username:  Wakaru-Science
 
 # Build settings
