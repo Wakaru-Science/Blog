@@ -26,6 +26,8 @@ facebook_username: WakaruScience
 instagram_username: wakaru_science
 github_username:  Wakaru-Science
 
+use_math: true
+
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
