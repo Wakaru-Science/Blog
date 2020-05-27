@@ -4,36 +4,53 @@ date: 2020-05-26
 comments: true
 title: The Hamiltionian Operator
 ---
+
 One of the three guards that scare away new learners of quantum mechanics is the Hamiltonian operator. Hamiltonian is the single most crucial operator in quantum mechanics; the king of operators, because of the simple fact that it operates upon the king itself, energy. We meet the king in postulate 5 of quantum mechanics without any explanation of the nature of the Hamiltonian or time-dependent Schrodinger wave equation. Without a proper understanding Hamiltonian or the wave equation, the intuition of quantum mechanics goes downhill real fast. All you are left with is pulling your hair out with a bunch of equations.
+
 If you have no idea what I just said, don't worry and come with me to play with some magical quantum dice.
-	Suppose we have a quantum dice. It follows all laws of quantum mechanics. Because it is a dice, it can exist in 6 possible states. But we cannot represent it as 1,2,3,4,5,6. We use Dirac notation to distinguish them from normal numbers. So |1⟩ represents the state of the dice with 1 on its top face; |2⟩ represents the state of dice with 2 on its top face ... We can have a whole lot of fun with this, but because we are hunting for Hamiltonian, we need to include time. So, after every one second, the dice randomly turns into any possible states.
-	We take some time here to get used to Dirac notation. You are playing quantum ludo, and you see the dice has 1 on its top face. We denoted this initial state as |1⟩. Dirac called it "bra". Just to start the game you desperately need a 6. This is the final state of dice, so it is represented as ⟨6|. Dirac called it "ket". So one turning spontaneously into a 6 is represented as ⟨6|1⟩ which is called "bra ket". No points for guessing. This whole dice turning business is based upon 6 possible states, so the dice are having any 1 of 6 numbers on the top face, or the states of |1⟩, |2⟩, |3⟩, |4⟩, |5⟩, |6⟩ which are called "base states".
-	But that is not what I said. I included time, that is, the dice randomly turns into any number after one second. When we do something to dice in quantum mechanics, it is called an operation. It's a pretty serious word for throwing around dice, turning it, putting it under a magnet, burning it with a laser and what not. All of those are operations and definitely not fooling around with the dice. But there is unsung underdog operation which we ignore—doing nothing. Yeah, just let the poor dice sit quietly for a second, doing nothing. That is an operation too.
-	But how do we write on paper that such operation occurred? In normal mechanics, if you move something by 5 meters, you do +5, you stretch something 10 times, you do x10. That is called the operator of the operation. In quantum mechanics, there is an operator for moving that tells you how much it moved, an operator of momentum that tells you what the momentum was and the royal operator of energy, which tells you what the energy is. This operator is so special that it was given a royal name, Hamiltonian.
-	Just like you use +, -, x, division in normal mechanics, you use matrices in quantum mechanics. Matrices are big boy operators. I like to call them transformers because they transform cars into cool robots, and it almost seems like magic. But if you have ever handled a transformer toy, you know there is delicate and beautiful machinery under it. So, our operator for time, is a matrix and we denote it as U. U is nothing special, you can have anything. U depends on time. Because U is a function of time, U is written as U(t2,t1). That is simply, we wait from t1 to t2. For waiting from t1 = 0 and t2 = 1, U(t2,t1) is U(1,0). 
-	Now we have all we need to write on paper, how dice has 1 on the top face, waits for 1 sec and then rolls to a 6. It is written as,
-⟨6| U(1,0)|1⟩
-	Dirac notation is read as Japanese manga, from left to right. The above equation is read as, the dice has state |1⟩ (1 in on top face), it waits for 1 second, i.e. U(1,0), and then it has state ⟨6| (6 is on top face). Left to right.
-	What are the chances of dice turning from 1 to 6 in a second? It is one state out of 6 possible states, so the chances are 1/6. In fact,
-⟨1| U(1,0)|1⟩
-	⟨2| U(1,0)|1⟩
-	⟨3| U(1,0)|1⟩
 
-⟨4| U(1,0)|1⟩
-	⟨5| U(1,0)|1⟩
-	⟨6| U(1,0)|1⟩
+Suppose we have a quantum dice. It follows all laws of quantum mechanics. Because it is a dice, it can exist in $6$ possible states. But we cannot represent it as $1,2,3,4,5,6$. We use Dirac notation to distinguish them from normal numbers. So $\ket{2}$ represents the state of the dice with $1$ on its top face; $\ket{2}$ represents the state of dice with $2$ on its top face ... We can have a whole lot of fun with this, but because we are hunting for Hamiltonian, we need to include time. So, after every one second, the dice randomly turns into any possible states.
+	
+We take some time here to get used to Dirac notation. You are playing quantum ludo, and you see the dice has $1$ on its top face. We denoted this initial state as $\bra{1}$. Dirac called it "bra". Just to start the game you desperately need a $6$. This is the final state of dice, so it is represented as $\ket{6}$. Dirac called it "ket". So one turning spontaneously into a $6$ is represented as $\bra{6}\ket{1}$ which is called "bra ket". No points for guessing. This whole dice turning business is based upon $6$ possible states, so the dice are having any $1$ of $6$ numbers on the top face, or the states of $\ket{1}$, $\ket{2}$, $\ket{3}$, $\ket{4}$, $\ket{5}$, $\ket{6}$ which are called "base states".
+	
+That is not what I said. I included time, that is, the dice randomly turns into any number after one second. When we do something to dice in quantum mechanics, it is called an *operation*. It's a pretty serious word for throwing around dice, turning it, putting it under a magnet, burning it with a laser and what not. All of those are *operations* and definitely not fooling around with the dice. But there is unsung underdog operation which we ignore—doing nothing. Yeah, just let the poor dice sit quietly for a second, doing nothing. That is an *operation* too.
+	
+But how do we write on paper that such operation occurred? In normal mechanics, if you move something by $5$ meters, you do $+5$, you stretch something $10 times$, you do $x10$. That is called the operator of the operation. In quantum mechanics, there is an operator for moving that tells you how much it moved, an operator of momentum that tells you what the momentum was and the royal operator of energy, which tells you what the energy is. This operator is so special that it was given a royal name, **Hamiltonian**.
+	
+Just like you use $+, -, \times, / $ in normal mechanics, you use matrices in quantum mechanics. Matrices are big boy operators. I like to call them transformers because they transform cars into cool robots, and it almost seems like magic. But if you have ever handled a transformer toy, you know there is delicate and beautiful machinery under it. So, our operator for time, is a matrix and we denote it as $U$. $U$ is nothing special, you can have anything. $U$ depends on time. Because $U$ is a function of time, $U$ is written as $U(t_2,t_1)$. That is simply, we wait from $t_1$ to $t_2$. For waiting from $t_1 = 0$ and $t_2 = 1$, $U(t_2,t_1)$ is $U(1,0)$.
 
-All have 1/6 chances. See if you can read them.
-	What about we wait for 2 seconds? 10 seconds? An hour? At this point, things get dicey. Ideally, we would want to treat the whole process as a single process and solve it in one go, which we do for relativity. But for non-relative purposes, we have to chop our process in 1-second intervals, and then multiply them to stitch them together. So,
-U(2,0) = U(2,1)U(1,0)
+Now we have all we need to write on paper, how dice has $1$ on the top face, waits for $1$ sec and then rolls to a $6$. It is written as,
+$$\bra{6}U(1,0)\ket{1}$$.
+
+Dirac notation is read as Japanese manga, from left to right. The above equation is read as, the dice has state $\ket{1}$ (1 in on top face), it waits for $1$ second, i.e. $U(1,0)$, and then it has state $\bra{6}$ (6 is on top face). Left to right.
+
+What are the chances of dice turning from $1$ to $6$ in a second? It is one state out of $6$ possible states, so the chances are $\frac{1}{6}$. In fact,
+
+$\bra{1}U(1,0)\ket{1}$ | $\bra{2}U(1,0)\ket{1}$ | $\bra{3}U(1,0)\ket{1}$
+$\bra{4}U(1,0)\ket{1}$ | $\bra{5}U(1,0)\ket{1}$ | $\bra{6}U(1,0)\ket{1}$
+
+All have $\frac{1}{6}$ chances. See if you can read them.
+
+What about we wait for $2$ seconds? $10$ seconds? An hour? At this point, things get dicey. Ideally, we would want to treat the whole process as a single process and solve it in one go, which we do for relativity. But for non-relative purposes, we have to chop our process in $1$-second intervals, and then multiply them to stitch them together. So,
+
+	$$U(2,0) = U(2,1)U(1,0)$$
+
 Again, read from left to right.
-	Why multiply to stitch them together and not add them together? Great! This is a good time as any to make one thing absolutely clear. In quantum mechanics, no matter what hi-fi stuff you are doing, if things occur one after another, i.e. consecutively, we multiply them. If things can occur at the same time, i.e. there is more than one way to it, we add. I cannot stress how important it is. In our case, every second is followed by the next second, so we multiply. The is no question of the possibility of 2 seconds occurring at the same time. No addition.
-	Now you wonder, in your game of quantum ludo, what if you wait for 2 seconds? Will your chances of getting a 6 increase? Or decrease? Or will it remain the same? Place your bets.
-	⟨6| U(2,1)|2⟩⟨2| U(1,0)|1⟩
-Can you read it? We start with 1, wait for a second, 1 becomes 2. Now 2 is our initial state, so we use a bra to denote it, wait for a second and then the dice turns 6. But but but, you might say why 2, the dice can go from 1 to 5 to 6 or 1 to 3 to 6. The focus is on or. Because all these possibilities can occur, there is more than one way to do this; we have to add the possibilities.
-⟨6| U(2,0)|1⟩ = ⟨6| U(2,1)|1⟩⟨1| U(1,0)|1⟩ + ⟨6| U(2,1)|2⟩⟨2| U(1,0)|1⟩ + ⟨6| U(2,1)|3⟩⟨3| U(1,0)|1⟩ + ⟨6| U(2,1)|4⟩⟨4| U(1,0)|1⟩ + ⟨6| U(2,1)|5⟩⟨5| U(1,0)|1⟩ + ⟨6| U(2,1)|6⟩⟨6| U(1,0)|1⟩
-Wow, this is wayyy too long. We need to shorten this. Remember, when we defined all possible states from 1 to 6. We called them base states. Let us denote all the base state as |i⟩ or ⟨i|. Then we can use summation and sum over all base states.
-⟨6| U(2,0)|1⟩ = Σi⟨6| U(2,1)|i⟩⟨i| U(1,0)|1⟩
+
+Why multiply to stitch them together and not add them together? Great! This is a good time as any to make one thing absolutely clear. In quantum mechanics, no matter what hi-fi stuff you are doing, if things occur one after another, i.e. consecutively, **we multiply** them. If things *can* occur at the same time, i.e. there is more than one way to it, **we add**. I cannot stress how important it is. In our case, every second is followed by the next second, so we multiply. The is no question of the possibility of $2$ seconds occurring at the same time. No addition.
+
+Now you wonder, in your game of quantum ludo, what if you wait for $2$ seconds? Will your chances of getting a $6$ increase? Or decrease? Or will it remain the same? Place your bets.
+
+	$$\bra{6}U(2,1)\ket{2}\bra{2}U(1,0)\ket{1}$$
+	
+Can you read it? We start with $1$, wait for a second, $1$ becomes $2$. Now $2$ is our initial state, so we use a bra to denote it, wait for a second and then the dice turns $6$. But but but, you might say why $2$, the dice can go from $1$ to $5$ to $6$ or $1$ to $3$ to $6$. The focus is on **or**. Because all these possibilities can occur, there is more than one way to do this; we have to **add** the possibilities.
+
+	$$\bra{6}U(2,0)\ket{1} = $$ $$\bra{6}U(2,1)\ket{1}\bra{1}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{2}\bra{2}U(1,0)\ket{1} +$$ $$ \bra{6}U(2,1)\ket{3}\bra{3}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{4}\bra{4}U(1,0)\ket{1} + $$ $$ \bra{6}U(2,1)\ket{5}\bra{5}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{6}\bra{6}U(1,0)\ket{1} .$$
+
+Wow, this is wayyy too long. We need to shorten this. Remember, when we defined all possible states from $1$ to $6$. We called them base states. Let us denote all the base state as $\bra{i}$ or $\ket{i}$. Then we can use summation and sum over all base states.
+
+$$\bra{6}U(2,0)\ket{1} = \Sigma_i\bra{6}U(2,1)\ket{i}\bra{i}U(1,0)\ket{1}$$
+
 It looks a lot nicer now. The symbols just mean 1, wait for a sec, to any base state i, and wait a sec more and then to 6. What about the probability?
 ⟨6| U(2,1)|i⟩ = 1/6 and ⟨i| U(1,0)|1⟩ = 1/6 so ⟨6| U(2, 1)|i⟩⟨i| U(1,0)|1⟩ = 1/36.
 We total six cases, so 1/36 + 1/36 + 1/36 + 1/36 + 1/36 + 1/36 = 1/6. If you did not bet on the chance is the same, you lost.
