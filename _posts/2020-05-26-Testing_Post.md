@@ -13,6 +13,8 @@ a given wire happens to be carrying "$$\lvert 0\rangle$$."
 By that we mean that it's carrying the linear combination
 
 \\( a^2 + b^2 = c^2 \\)
+\( a^2 + b^2 = c^2 \)
+
 \\[ a^2 + b^2 = c^2 \\]
 
 $\lvert$
