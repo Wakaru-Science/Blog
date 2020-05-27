@@ -13,6 +13,7 @@ a given wire happens to be carrying "$$\lvert 0\rangle$$."
 By that we mean that it's carrying the linear combination
 
 \\( a^2 + b^2 = c^2 \\)
+\\[ a^2 + b^2 = c^2 \\]
 
 $\lvert$
 
@@ -23,6 +24,8 @@ $$\begin{psmallmatrix} 1 \\ 0 \end{psmallmatrix}$$
 \$ \psi \$
 \$$ \psi \$$
 \[  \]
+
+\psi
 
 \\( 1/x^{2} \\)
 
