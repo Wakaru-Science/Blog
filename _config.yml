@@ -34,7 +34,7 @@ disqus:
     shortname: https-wakaru-science-github-io-blog
 
 # Build settings
-markdown: maruku
+markdown: kramdown
 
 theme: minima
 plugins:
