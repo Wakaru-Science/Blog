@@ -3,7 +3,12 @@
   <div id="disqus_thread"></div>
   
    <script type="text/javascript">
-	document.addEventListener('DOMContentLoaded', function(){
+   </script>
+
+  
+  <script>
+  
+  	document.addEventListener('DOMContentLoaded', function(){
 	function stripcdata(x) {
      if (x.startsWith('% <![CDATA[') && x.endsWith('%]]>'))
       return x.substring(11,x.length-4);
@@ -15,10 +20,9 @@
 	script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
 	document.head.appendChild(script);
 	}, false);
-   </script>
 
-  
-  <script>
+
+
     var disqus_config = function () {
       this.page.url = '{{ page.url | absolute_url }}';
       this.page.identifier = '{{ page.url | absolute_url }}';
