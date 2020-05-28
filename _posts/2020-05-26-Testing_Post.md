@@ -34,7 +34,7 @@ $$\begin{psmallmatrix} 1 \\ 0 \end{psmallmatrix}$$
 $\psi$
 $$\psi$$
 
-dipesh
+dipesh 2
 
 \\( 1/x^{2} \\)
 
