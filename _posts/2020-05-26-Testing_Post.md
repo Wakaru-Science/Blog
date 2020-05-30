@@ -3,7 +3,7 @@ layout: post
 date: 2020-05-26
 comments: false
 title: Testing Post
-published: false
+published: true
 ---
 
 Something is not working.
