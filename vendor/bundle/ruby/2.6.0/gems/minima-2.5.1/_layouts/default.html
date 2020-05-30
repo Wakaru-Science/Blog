@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<head>
       <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function(){
   function stripcdata(x) {
@@ -18,11 +18,12 @@ document.addEventListener('DOMContentLoaded', function(){
   script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
   document.head.appendChild(script);
 }, false);
+
 </script>
 
   {%- include head.html -%}
   {% include google_analytics.html %}
-
+</head>
   <body>
 
     {%- include header.html -%}
