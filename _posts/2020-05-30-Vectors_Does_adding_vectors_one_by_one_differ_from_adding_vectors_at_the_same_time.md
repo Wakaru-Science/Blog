@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-05-29
+date: 2020-05-30
 comments: true
 title: Vectors: Does adding vectors one by one differ from adding vectors at the same time?
 ---
