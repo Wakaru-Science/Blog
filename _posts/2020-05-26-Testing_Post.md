@@ -1,13 +1,13 @@
 ---
 layout: post
 date: 2020-05-26
-comments: true
+comments: false
 title: Testing Post
-usemathjax: true
 ---
 
-Hello World
-This is my first post
+Something is not working.
+
+I am trying to fix it.
 
 a given wire happens to be carrying "$$\lvert 0\rangle$$."
 By that we mean that it's carrying the linear combination
