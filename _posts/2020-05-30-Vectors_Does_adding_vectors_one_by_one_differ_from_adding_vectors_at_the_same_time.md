@@ -1,0 +1,63 @@
+---
+layout: post
+date: 2020-05-30
+comments: true
+title: Vectors: Does adding vectors one by one differ from adding vectors at the same time?
+---
+
+Why did we do that? No matter how we choose the axis or origin, the vector does not change. Or you can do the reverse. If you take a point on a graph and move it, it will mess the graph. You can move the vector wherever you want; the vector does not change. You can simply throw the origin and axes away, and still do the entire vector algebra. No problem.
+
+We all know about the concepts of addition and multiplication. Take 5 metal balls in a jar, put 5 more in there, you get 10. First, take 5 and then add 5 more in the second step. These are two “consecutive” steps or one after another step. If the metal balls are magical and they multiply with a touch, each ball splits into 5 more balls at the same time. It is a “simultaneous” step.
+
+Mau is playing with a metal ball. She pushes the ball in some direction. The ball weights 10 grams. We represent the direction by an arrow. She pushes a second ball in the same direction. The second ball crashes into the first one and transfers all of its energy into the first one. The second ball comes to a standstill while the first ball moves faster than before.
+
+Let’s put this physical situation on paper. We take up a random origin and define the direction in which the ball moves as the x-axis. Now that we have the weight of the ball, coordinates of the ball as well as direction, we can define the vector x. Similarly, we have vector y for the second ball. Both are travelling in the same direction. When the second ball crashed into the first one, both vectors add together, and we get a new vector in the same direction. The magnitude (speed) of this new vector is the magnitude (speed) of vector x + magnitude (speed) of vector y.
+Thus, we have added two vectors.
+
+What about multiplication? Can we multiply two vectors? More importantly, what would multiplication of a vector mean physically?
+
+Just like simple numbers, vectors are **added** when events occur in “*consecutive*” steps. One vector acts upon a second vector one after other. Vectors are **multiplied**, when events occur “*simultaneously*”. Both vectors should act upon each other at the same time.
+
+Let’s say there is a small ball of 1 gram moving in x direction. If there are 10 such balls travelling in x direction it would be equivalent to 1 ball travelling in x direction. We will name the small ball as vector i. Thus we can start imagining our big ball of 10 grams as 10 small balls of 1 gram travelling together. Now we switch on our electromagnet. Each small ball of 1 gram is moving in the x direction as well as facing a pull in x direction at the same time. Let that pull in x direction be 2i’. Each ball which was moving with 1 m/s now moves with 2 m/s because of the magnet. The big ball which was moving at 10 m/s now moves at 20 m/s.
+
+x = i1 + i2 + i3 + …. i10 = 10i
+
+After magnet was switched on, both forces act at the same time, we have to multiply
+
+x’ = (10i)(2i’) 
+x’ = (i1 + i2 + i3 + …. i10)( 2i’)
+x = 2i1 + 2i2 + 2i3 + …. 2i10
+x = 20i
+
+Because everything travels in the same direction, we can remove i, and the whole thing looks like this:
+
+x = 10
+x’ = (10)(2)
+x’ = (1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1)2
+x’ = (2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2)
+x’ = 20
+which is simple multiplication!
+
+So we have managed to multiply things with a direction. Any vector can be divided into small vectors with magnitude 1, and same direction and then multiplied with a different vector in the same direction. This small vector is so special that we give a hat to wear for the tiny one and call it î (pronounced as I cap or I hat). 1 is a unit number, so î is a unit vector.
+
+There is one thing that we took for granted here. When we were multiplying i1 with 2i’, the magnitude 1 x 2 = 2 multiplication was okay, but what about the multiplication of direction. What is the answer for (i) (i’)? If something moves in a direction, and you push it in the same direction, it continues moving in the same direction. Thus (i) (i’) = i. That is what I did under the covers.
+
+You might complain that after reading over 2000 words, all we have accomplished is to make simple multiplication more complex. I have wasted time and effort that you have graciously gifted me. To take a leap, we need to take a step back. As I have often observed in science, things become complicated first before they start simplifying.
+
+Not everything moves in a straight line. Mau ups her game, and now she is throwing the second metal ball in a different direction so that it collides with the first one at some point. The first one remains x made up of i^, second vector (ball) y is made up of j^.
+Now you can again imagine how x is made up of 10 different balls, travelling in the same direction. The unit vector is i^. i^ + i^ = i^ so sum of 10i^ = 10i = x
+
+Similarly, the sum of 10 j^ = y
+
+What happens when the two balls collide? The ball in y-direction stands still, while the ball in x-direction starts travelling in both x and y-direction!
+
+To put it on paper,
+
+10i + 10j = 10i + 10j
+
+What if x = 5i + 7j and y = 5i + 3j?
+
+x + y = 5i+ 7j + 5i + 3j = 10i + 10j
+
+The whole thing is a parallelogram.
+

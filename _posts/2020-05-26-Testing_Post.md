@@ -1,13 +1,17 @@
 ---
 layout: post
 date: 2020-05-26
-comments: true
+comments: false
 title: Testing Post
-usemathjax: true
 ---
 
-Hello World
-This is my first post
+Nothing to look here.
+
+Something is not working and I am fixing it.
+
+Looks like latex broke down again
+
+Sorry you have to see this. The are much better things to see, frankly.
 
 a given wire happens to be carrying "$$\lvert 0\rangle$$."
 By that we mean that it's carrying the linear combination
