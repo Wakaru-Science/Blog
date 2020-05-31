@@ -63,4 +63,4 @@ tooltip = plugins.PointHTMLTooltip(points[0], labels,
                                    voffset=10, hoffset=10, css=css)
 plugins.connect(fig, tooltip)
 
-mpld3.show()
+mpld3.save_html(fig, "drag_points.html", template_type='simple')
