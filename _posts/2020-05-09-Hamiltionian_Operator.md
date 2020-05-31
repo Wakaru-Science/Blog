@@ -41,11 +41,15 @@ Why multiply to stitch them together and not add them together? Great! This is a
 
 Now you wonder, in your game of quantum ludo, what if you wait for $2$ seconds? Will your chances of getting a $6$ increase? Or decrease? Or will it remain the same? Place your bets.
 
-	$$\bra{6}U(2,1)\ket{2}\bra{2}U(1,0)\ket{1}$$
+$$\bra{6}U(2,1)\ket{2}\bra{2}U(1,0)\ket{1}$$
 	
+$$\braket{\phi\vert\psi}$$
+	
+$$ \braket{6\vertU(2,1)\vert2} $$
+
 Can you read it? We start with $1$, wait for a second, $1$ becomes $2$. Now $2$ is our initial state, so we use a bra to denote it, wait for a second and then the dice turns $6$. But but but, you might say why $2$, the dice can go from $1$ to $5$ to $6$ or $1$ to $3$ to $6$. The focus is on **or**. Because all these possibilities can occur, there is more than one way to do this; we have to **add** the possibilities.
 
-	$$\bra{6}U(2,0)\ket{1} = $$ $$\bra{6}U(2,1)\ket{1}\bra{1}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{2}\bra{2}U(1,0)\ket{1} +$$ $$ \bra{6}U(2,1)\ket{3}\bra{3}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{4}\bra{4}U(1,0)\ket{1} + $$ $$ \bra{6}U(2,1)\ket{5}\bra{5}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{6}\bra{6}U(1,0)\ket{1} .$$
+$$\bra{6}U(2,0)\ket{1} = $$ $$\bra{6}U(2,1)\ket{1}\bra{1}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{2}\bra{2}U(1,0)\ket{1} +$$ $$ \bra{6}U(2,1)\ket{3}\bra{3}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{4}\bra{4}U(1,0)\ket{1} + $$ $$ \bra{6}U(2,1)\ket{5}\bra{5}U(1,0)\ket{1} + \bra{6}U(2,1)\ket{6}\bra{6}U(1,0)\ket{1} .$$
 
 Wow, this is wayyy too long. We need to shorten this. Remember, when we defined all possible states from $1$ to $6$. We called them base states. Let us denote all the base state as $\bra{i}$ or $\ket{i}$. Then we can use summation and sum over all base states.
 
