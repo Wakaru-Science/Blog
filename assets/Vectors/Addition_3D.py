@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt, mpld3
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
@@ -26,6 +26,11 @@ ax.set_zlim([-7, 7])
  
 #ax.yaxis.set_ticks_position("left")
 
-plt.show()
+mpld3.show()
+
+filename = 'Addition_3D.html'
+#mpld3.save_html(fig, filename, template_type='simple')
+
+
 
 

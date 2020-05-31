@@ -13,6 +13,18 @@ I am trying to fix it.
 a given wire happens to be carrying "$$\lvert 0\rangle$$."
 By that we mean that it's carrying the linear combination
 
+# Not rendered
+$ x+1 $ 
+
+# Inline
+$$ x+1 $$ 
+\\( x+1 \\) 
+
+# Block equation
+\begin{equation}
+x+1
+\end{equation} 
+
 $$c = \pm\sqrt{a^2 + b^2}$$
 
 \\( a^2 + b^2 = c^2 \\)
