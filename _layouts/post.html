@@ -24,7 +24,20 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 	
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  
+<!-- Changing MathJax to KaTex -->
+<script>
+  $("script[type='math/tex']").replaceWith(function() {
+      var tex = $(this).text();
+      return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: false});
+  });
+
+  $("script[type='math/tex; mode=display']").replaceWith(function() {
+      var tex = $(this).html();
+      return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+  });
+</script>
+    
 </article>
 
