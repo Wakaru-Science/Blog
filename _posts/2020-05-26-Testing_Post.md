@@ -10,6 +10,14 @@ Something is not working.
 
 I am trying to fix it.
 
+
+Here, have some $$\pi$$.
+
+The greatest equation known to man is: 
+
+$$e^{ix} = \cos{x} + i\sin{x}$$
+
+
 a given wire happens to be carrying "$$\lvert 0\rangle$$."
 By that we mean that it's carrying the linear combination
 
