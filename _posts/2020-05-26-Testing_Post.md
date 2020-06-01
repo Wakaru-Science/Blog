@@ -10,6 +10,7 @@ Something is not working.
 
 I am trying to fix it.
 
+Latex is a being a massive pain to render to be honest
 
 Here, have some $$\pi$$.
 
