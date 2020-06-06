@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
-<head>
- 
-  {%- include head.html -%}
+  {% include head.html %}
   {% include google_analytics.html %}
-</head>
+
+
   <body>
+    {{ content }}
 
-    {%- include header.html -%}
-	
+    {% include footer.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    !{%- include footer.html -%}
-
+    <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+    <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+    
   </body>
-
 </html>

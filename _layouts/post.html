@@ -1,32 +1,69 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-	  
-  </header>
+{% include header.html %}
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+{% assign page_category = site.data.category_list[page.category] %}
+
+
+<div class="container-full">
+    <div class="container grid-xl">
+      <div class="mt-12 show-md"></div>
+      <div class="mt-8"></div>
+      <div class="columns negative-m-xl">
+        <div class="column col-12">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}{{ site.baseurl }}">Help Center Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="../{{ page.category }}">{{ page_category.name }}</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">{{ page.title }}</a>
+            </li>
+          </ul>
+          <h2 class="text-light text-bold">{{ page.title }}</h2>
+          <p class="text-light mb-0">{{ page.short-description }}</p>
+        </div>
+        <div class="column col-12">
+          <div class="card">
+            <div class="card-body">
+                {% if site.use_authors == true %}
+                {% assign post_author = site.data.authors[page.author] %}
+                <div class="flex-vertical-center mb-4">
+                  <figure class="avatar d-inline-block" style="align-items: center;">
+                    <img  src="../assets/{{ post_author.image }}" alt="...">
+                  </figure>
+                  <div class="ml-2">
+                    <p class="text-dark text-small mb-0">Written by <span class="text-primary">{{ post_author.name }}</span></p>
+                    <p class="text-dark text-small text-italic mb-0">{% include reading-time.html %}</p>
+                  </div>
+                </div>
+                {% else %}
+                <div class="ml-2">
+                    <p class="m-0 text-small">Last updated:</p>
+                    <p class="text-dark text-small text-italic mb-0">{{ page.last_modified_at | date: '%B %d, %Y'  }} - {% include reading-time.html %}</p>
+                  </div>
+                {% endif %}
+
+              {{ content }}
+
+              
+            
+
+
+            </div>
+          </div>
+        </div>
+        {% include more-help.html %}
+		
+		<!-- disqus -->
+		  {%- if site.disqus.shortname -%}
+		  {%- include disqus_comments.html -%}
+		  {%- endif -%}
+
+      </div>
+    </div>
   </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-	
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-      
-</article>
-
-<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
-

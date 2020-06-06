@@ -1,0 +1,12 @@
+#This file defines all the categories you are using
+
+
+basic-maths:
+  name: Basic Maths
+  description: Let's start with no baggage!
+quantum-mechanics:
+  name: Quantum Mechanics
+  description: All the Maths for this!
+AI-compchem:
+  name: AI + Computational Chemistry
+  description: The equations are not going to solve themselves
