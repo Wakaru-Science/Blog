@@ -8,5 +8,5 @@ quantum-mechanics:
   name: Quantum Mechanics
   description: All the Maths for this!
 AI-compchem:
-  name: AI + Computational Chemistry
+  name: AI_Computational Chemistry
   description: The equations are not going to solve themselves
