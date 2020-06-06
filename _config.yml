@@ -24,7 +24,7 @@ baseurl: / # the subpath of your site, e.g. /support
 url: https://www.wakaruscience.com # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
-content_type: No Cargo Cult #Define whether this is a knowledge base, help center, or something else
+content_type: No Cargo Cult Science Here #Define whether this is a knowledge base, help center, or something else
 use_authors: false #Set this to false to disable showing post authors
 
 brand_logo: logo.png
@@ -45,10 +45,10 @@ linkedin_page:
 
 # Navivation
 nav_item_one: About
-nav_item_one_link: https://github.com/TeaGuns/odin
+nav_item_one_link: https://www.wakaruscience.com
 
 nav_item_two: Thanks
-nav_item_two_link: https://twitter.com/TheTeaGuns
+nav_item_two_link: https://www.wakaruscience.com
 
 nav_item_three: #
 nav_item_three_link: #
