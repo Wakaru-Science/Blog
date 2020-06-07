@@ -2,10 +2,10 @@
 
 
 subcategory-one:
-  name: Subcategory One
+  name: Vectors
   parent-category: basic-maths
   parent-category-name: Basic Maths
-  description: This is your first subcategory!
+  description: It all starts from here.
 subcategory-two:
   name: Subcategory Two
   parent-category: basic-maths
