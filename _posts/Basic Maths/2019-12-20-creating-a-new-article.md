@@ -11,12 +11,8 @@ We all know about the concepts of addition and multiplication. Take 5 metal ball
 
 Mau is playing with a metal ball. She pushes the ball in some direction. The ball weights 10 grams. We represent the direction by an arrow. She pushes a second ball in the same direction. The second ball crashes into the first one and transfers all of its energy into the first one. The second ball comes to a standstill while the first ball moves faster than before.
 
-![Balls](/assets/Vectors/Balls.png)
-
 Let’s put this physical situation on paper. We take up a random origin and define the direction in which the ball moves as the x-axis. Now that we have the weight of the ball, coordinates of the ball as well as direction, we can define the vector x. Similarly, we have vector y for the second ball. Both are travelling in the same direction. When the second ball crashed into the first one, both vectors add together, and we get a new vector in the same direction. The magnitude (speed) of this new vector is the magnitude (speed) of vector x + magnitude (speed) of vector y.
 Thus, we have added two vectors.
-
-![Addition](/assets/Vectors/addition.png)
 
 What about multiplication? Can we multiply two vectors? More importantly, what would multiplication of a vector mean physically?
 
@@ -50,8 +46,6 @@ $$x' = 20$$
 
 which is simple multiplication!
 
-![Multiplication](/assets/Vectors/Multiplication.png)
-
 So we have managed to multiply things with a direction. Any vector can be divided into small vectors with magnitude 1, and same direction and then multiplied with a different vector in the same direction. This small vector is so special that we give a hat to wear for the tiny one and call it $$\hat{i}$$ (pronounced as I cap or I hat). 1 is a unit number, so $$\hat{i}$$ is a unit vector.
 
 There is one thing that we took for granted here. When we were multiplying i1 with 2i’, the magnitude 1 x 2 = 2 multiplication was okay, but what about the multiplication of direction. What is the answer for $$(i) (i')$$? If something moves in a direction, and you push it in the same direction, it continues moving in the same direction. Thus $$(i) (i’) = i$$. That is what I did under the covers.
@@ -74,8 +68,4 @@ What if x = 5i + 7j and y = 5i + 3j?
 x + y = 5i+ 7j + 5i + 3j = 10i + 10j
 
 The whole thing is a parallelogram.
-
-[Why do we need two types of multiplication (Scalar and Vector) anyways?]({% link _posts/2020-05-30-Vectors3.md %})
-
-[Why can we move vectors around without worrying about co-ordinates?]({% link _posts/2020-05-27-Vectors.md %})
 
