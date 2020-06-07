@@ -8,5 +8,5 @@ basic-maths:
   name: Basic Maths
   description: Let's start with no baggage!
 AI-compchem:
-  name: AI_Computational Chemistry
+  name: AI + Computational Chemistry
   description: The equations are not going to solve themselves
