@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Creating a New Article"
+title: Vectors -  Why is adding vectors one by one different from adding vectors at the same time?
 date: 2019-11-05 08:44:38 -0400
 category: subcategory-vectors
 author: wakaru
-comments:true
 short-description: How to add a new article to your Odin knowledge base
 ---
 

@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Deploying Odin to Github Pages"
+title: "Why can we move vectors around without worrying about co-ordinates?"
 date: 2019-11-05 08:44:38 -0400
 category: subcategory-vectors
 author: wakaru
-comments:true
-short-description: How to automatically deploy on Github Pages, for free!
+short-description: Why can we align head and tail of vector but cannot move two lines on a graph? 
 ---
 
 Vectors are generally introduced as something with both magnitude and direction. Then we learn how to add vectors, the law of parallelogram and out of nowhere we are introduced to scalar and vector product, with no explanation from where it came from. Why do we need two types of multiplication anyways? Randomly, textbooks include the projection of a vector and somehow sinθ and cosθ appear. Then you might forget about vectors till you reencounter them as divergence and curl or some other place.
