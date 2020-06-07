@@ -1,7 +1,7 @@
 #Tihs file defines all categories that live within a parent category
 
 
-subcategory-one:
+subcategory-vectors:
   name: Vectors
   parent-category: basic-maths
   parent-category-name: Basic Maths
